@@ -7,17 +7,15 @@ This project is a responsive front-end clone of Amazon's user interface built us
 
 ## Features
 - Responsive design that works on desktop, tablet, and mobile devices
-- Pixel-perfect recreation of Amazon's header with navigation bar and search functionality
+- Nearly-perfect recreation of Amazon's header with navigation bar and search functionality
 - Product display grid
 - Footer with multiple sections and links
-- Category navigation sidebar
 - Product cards with images, titles, pricing, and ratings
-- Prime badges and delivery information styling
 
 ## Technologies Used
 - HTML5
 - CSS3
-- Flexbox and Grid layouts
+- Flexbox layouts
 - CSS variables for consistent theming
 - Media queries for responsiveness
 
