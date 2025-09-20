@@ -373,3 +373,141 @@
 .final-list ul li{
     margin: 10px;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    .location {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin: 10px 0;
+        order: 3;
+    }
+
+    .search {
+        width: calc(100% - 110px);
+    }
+
+    .extra-container {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .acc {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .hello, .returns-and-orders {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 5px 10px;
+    }
+
+    .box5 {
+        margin-left: 10px;
+    }
+
+    .header2 {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .nav-items {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .hero {
+        height: 200px;
+    }
+
+    .hero-msg {
+        top: 150px;
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .shoprow1, .shoprow2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shopbox {
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .shop-box-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .recommandation {
+        height: auto;
+        padding: 20px;
+    }
+
+    .rec1 {
+        font-size: 18px;
+    }
+
+    .rec-button {
+        width: 200px;
+    }
+
+    .footerlinks {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+    }
+
+    .footer-ul {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footer-options {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .final-panel {
+        height: auto;
+        padding: 20px;
+    }
+
+    .final-list ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .final-list ul li {
+        margin: 5px 0;
+    }
+}
